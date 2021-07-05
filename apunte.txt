@@ -77,8 +77,8 @@ operadores aritméticos(como una calculadora):
     primeros los parentesis gerarquias de que hacer primero 
     y python las respeta
 
-    raiz acuadrada
-
-
-
-
+     Reto raiz acuadrada
+     import math
+    num = input("Poner un numero: ")
+    raiz = math.sqrt(num)
+    print(raiz)
