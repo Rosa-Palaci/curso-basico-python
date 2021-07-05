@@ -176,9 +176,35 @@ por ejemplo: tenemos texto "1" pero no queremos tratar ese string como
 string sino como numero entero
 
 C L A S E 11: 
+Convertir un dato a un tipo diferente
 
-    >>>
-    >>>
+T I P: 
+    >>> numero1 = input("Escribe un numero: ")
+    >>> numero1
+    '5'
+    >>> numero2 = input("Escribe un numero: ")
+    '12'
+    >>> numero1 + numero2
+    '512'
+Se guardo como texto (al sumar textos se concatenan)
+    Aqui ponemos int para transformar el contenido de mi variable a un numero entero 
+    y eso lo guardo en mi variable numero1
+    >>> numero1 = int(numero1)
+    >>> numero1
+    5
+    >>> numero2 = int(numero2)
+    >>> numero2
+    12
+    >>> numero1 + numero2
+    17
+    >>> numero_decimal = 2.3
+    >>> int(2.3)
+    2
+    >>> numero_decimal
+    2.3
+    >>> str(numero_decimal)
+    '2.3'
+
 C L A S E 12: 
 C L A S E 13: 
 C L A S E 14: 
