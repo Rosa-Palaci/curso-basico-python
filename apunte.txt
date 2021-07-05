@@ -1,0 +1,44 @@
+C L A S E 3:
+Algoritmo ¿Qué es ?Es una serie de pasos para resolver un problema
+- Finito (un inicio claro, y un fin, cierta cantidad de pasos para llegar al fin)
+- No ambiguo (que un paso finalidad en particular)
+
+C L A S E 4:
+cmder instalcion consola de terminal
+
+C L A S E 5 y 6: Intalacion de herramientas en sistemas opertivos como Mac y Ubuntu
+
+C L A S E 7:
+Comandos en window con cmdeer:
+    cntrl + l -para limpiar la terminal-
+    cd (change direction)  -para moverse entre carpetas-
+        ejemplo: carpeta-ejemplo(en desktop) 
+            carpeta-ejemplo(4 carpetas x0, x1, x2, x3)
+
+            nosotros estamos en User/Documents/consola
+            tenemos que movernos hacia atras 
+    cd .. -llevame a la carpeta padre-
+            para el ejemplo nuestra carpeta padre es Documents
+
+        para ir a User otra vez cd ..
+
+        con cd Desktop/
+        despues vamos a cd carpeta-ejemplo/
+
+        cd x0
+        cd ..
+
+    Saber que archivos hay dentro 
+    ls (list) -vemos el contenido de la carpeta donde estamos parados-
+
+    crear una carpeta en la consola
+    mkdir (make directory)
+
+    mkdir + "nombre de la carpeta"
+
+    crear archivo 
+    touch + "nombre de la archivo"
+
+C L A S E 8:
+
+
