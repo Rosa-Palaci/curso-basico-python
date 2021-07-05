@@ -40,5 +40,45 @@ Comandos en window con cmdeer:
     touch + "nombre de la archivo"
 
 C L A S E 8:
+operadores aritméticos(como una calculadora): 
+    sumas, restas, multipliicación, divisiónes
+
+    ¿Qué es la consola interactiva? nos permite ejecutar una linea de codigo inmediatamente
+    Windoxs para iniciar la consola interactiva, py
+    Mac o lunix python3
+    >>> 5 + 5
+    10
+    permite ver el resultado para el codigo es
+    print(5 + 5)
+    10
+
+    multiplicación 
+    2 * 5 
+    10
+
+    2: 20
+    error
+    >>> 2 *20
+    40
+    >>> 5 * 4 * 3 * 2 * 1
+    120
+    >>> 21 / 5
+    4.2
+
+    division entero ucliriana
+    >>> 21 // 5 
+    4
+    para ver el resto de la operacion 
+    >>> 21 % 5
+    1
+    2 elevado a 2 potencias
+    >>> 2 ** 2
+
+    primeros los parentesis gerarquias de que hacer primero 
+    y python las respeta
+
+    raiz acuadrada
+
+
 
 
