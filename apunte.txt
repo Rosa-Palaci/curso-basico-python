@@ -133,3 +133,59 @@ objetos
 
             Esto es diferente segun el programa
             El java cuadno tenemos varias palabras se separan con Mayúsculas excepto la primera palabra
+
+C L A S E 10: 
+Los primitivos: tipos de datos sencillos
+tipos de datos = objetos
+
+    4 tipos de datos clasicos:
+    -numeros entreros
+    -numeros de punto flotante
+    -String Texto (cadenas de caracteres)
+    -Booleanos (verdadero y falso) 
+
+    **Consola de py**
+    Todo lo que este entre "" o '' es texto
+
+    Sumar strings concatenación(unir textos)
+    >>> nombre + nombre2 
+    'RosaFacundo'
+    >>> nombre * 4
+    'RosaRosaRosaRosa'
+    >>> nombre + ", " + nombre2 concatenación(de forma estetica)
+    'Rosa, Facundo'
+
+    crear un num_decimal
+    >>> num_decimal = 5.4
+    >>> num_decimal
+    5.4
+    punto para decimales
+
+    Booleanos (verdadero y falso)
+    >>> es_estudiante = True
+    es_estudiante
+    True
+    >>> print(es_estudiante)
+    True
+    >>> trabaja = False
+    >>> trabaja
+    False
+
+Casos en los que queremos convertir un dato de un tipo a otro
+por ejemplo: tenemos texto "1" pero no queremos tratar ese string como
+string sino como numero entero
+
+C L A S E 11: 
+
+    >>>
+    >>>
+C L A S E 12: 
+C L A S E 13: 
+C L A S E 14: 
+C L A S E 15: 
+C L A S E 16: 
+C L A S E 17: 
+C L A S E 18: 
+C L A S E 19: 
+C L A S E 20: 
+C L A S E 21: 
