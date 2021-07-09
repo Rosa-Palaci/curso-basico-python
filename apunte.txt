@@ -285,8 +285,44 @@ print("Tienes $"+ dolares + "dólares" )
 
 Reto personal: de Pesos a dolares.
 
+C L A S E 14: Construyendo el camino de un programa con condicionales
+edad = int(input("Escribe tu edad: "))
+#edad = int(edad)
 
-C L A S E 14: 
+---
+edad = int(input("Escribe tu edad: "))
+if edad > 17:
+    pass
+else:
+    pass
+---
+#Construyendo el camino de un programa con condicionales
+edad = int(input("Escribe tu edad: "))
+if edad > 17:
+    print("Eres mayor de edad")
+else:
+    print("Eres menor de edad")
+---
+    print("Eres menor de edad")
+'''
+numero = int(input('Escribe un número: '))
+
+if numero > 5:
+    print('Es mayor a 5')
+elif numero == 5:
+    print('Es igual a 5')
+else:
+    print('Es menor a 5')
+---
+
+C O N D I C I O N A L E 
+if - si 
+else - si no NO
+pass = palabra clave para dejar en blanco y escribir algo despues
+elif - si no 
+
+
+
 C L A S E 15: 
 C L A S E 16: 
 C L A S E 17: 
