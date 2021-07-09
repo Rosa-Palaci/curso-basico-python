@@ -205,8 +205,76 @@ Se guardo como texto (al sumar textos se concatenan)
     >>> str(numero_decimal)
     '2.3'
 
-C L A S E 12: 
-C L A S E 13: 
+C L A S E 12: Operadores lógicos y de comparación
+
+Caso: Estudiante que no trabaja
+    **Consola**
+    >>> es_estudiante = True
+    >>> es_estudiante
+    True
+    >>> trabaja = False
+    >>> trabaja
+    False
+
+Cuando decimos que es estudiante y trabaja es ¿True or False?
+Respuesta False porque esta persona no trabaja aunque es estudiante
+    >>> es_estudiante and trabaja
+    False
+    OPERADOR AND cuando yo utilizo este operador python regres un True cuando todas las variables den True
+    >>> es_estudiante and trabaja
+        (True)            (False)
+
+    OPERADOR OR me regresará un True cuando todas al menos una de las variables sea True
+    >>> es_estudiante or trabaja
+    True
+
+operadores lógicos
+    OPERADOR NOT invierte el valor original de la variable
+    >>> not es_estudiante
+    False
+    >>> not trabaja
+    True
+
++Curso de pensamiento lógico+
+
+operadores de comparación
+
+    >>> numero1 = 4       
+    >>> numero2 = 4               
+    >>> numero1
+    4
+    >>> numero2
+    4
+    ¿Como saber que numero1 es igual a numero2?
+    Con el operado ==
+
+    >>> numero1 == numero2 (numero1 es igual a numero2)
+    True
+
+    >>> numero3 = 9
+    >>> numero1 == numero3
+    False
+
+    operador != distinto 
+    >>> numero1 != numero3 
+    True
+    >>> numero1 > numero3 (> mayor)
+    False
+    >>> numero1 < numero3 (< menor)
+    True
+    >>> numero1 >= numero3 (>= mayor o igual)
+    False
+    >>> numero1 >= numero2 (>= mayor o igual)
+    True
+    >>> numero1 <= numero2 (z= menor o igual)
+    True
+    >>> numero1 <= numero3 (<= menor o igual)
+    True
+
+
+C L A S E 13: Tu primer programa: conversor de monedas
+
+
 C L A S E 14: 
 C L A S E 15: 
 C L A S E 16: 
