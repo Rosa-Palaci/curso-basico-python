@@ -322,8 +322,14 @@ pass = palabra clave para dejar en blanco y escribir algo despues
 elif - si no 
 
 
-
 C L A S E 15: 
+Varios países en mi conversor de monedas
+
+cadena de caracteres de varia lineas
+menu = """
+
+"""
+
 C L A S E 16: 
 C L A S E 17: 
 C L A S E 18: 

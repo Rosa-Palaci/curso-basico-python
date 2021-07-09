@@ -1,7 +1,20 @@
-#Reto: conversor de monedas
-pesos = input("¿Cuántos pesos mexicanos tienes?: ")
+#Varios países en mi conversor de monedas
+menu = """
+Bienvenido al converso de monedas😎
+1 - Pesos colombianos
+2 - Pesos argentinos
+3 - Pesos mexicanos
+
+Elige una opción: 
+"""
+opcion = input(menu)
+
+if opcion == '1':
+    pass
+
+pesos = input("¿Cuántos pesos colombianos tienes?: ")
 pesos = float(pesos)
-valor_dolar = 20
+valor_dolar = 3875
 dolares = pesos / valor_dolar
 dolares = round(dolares, 2)
 dolares = str(dolares)
