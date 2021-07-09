@@ -273,6 +273,17 @@ operadores de comparación
 
 
 C L A S E 13: Tu primer programa: conversor de monedas
+Pesos colombianos a dolares
+
+pesos = input("¿Cuántos pesos colombianos tiene?: ")
+pesos = float(pesos)
+valor_dolar = 3875
+dolares = pesos / valor_dolar
+💥dolares = round(dolares, 2) #Tomas el contenido dolares y solo toma dos decimales round es un parametro 2 es la cantidad de decimales y guardamos en nuestra variable
+dolares = str(dolares)
+print("Tienes $"+ dolares + "dólares" )
+
+Reto personal: de Pesos a dolares.
 
 
 C L A S E 14: 
