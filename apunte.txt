@@ -427,6 +427,23 @@ else:
 
 
 C L A S E 17: 
+Modularizando nuestro conversor de monedas
+Las funciones y para que sirven 
+aplicar las funciones 
+Muchas veces el resultado de un a funcion, lo que queremos es guardar el resultado de una funcion en una variable 
+
+def suma (a, b):
+    print('Se suma dos números')
+    resultado = a + b
+    return resultado
+
+sumatoria = suma(1, 4)
+print(sumatoria)
+
+Crear las funciones por ensima del codigo para tener las definidas
+
+
+
 C L A S E 18: 
 C L A S E 19: 
 C L A S E 20: 

@@ -25,3 +25,13 @@ elif opcion == 3:
     conversacion('Elegiste la opción 3')    
 else:
     print('Escribe la opción correcta')
+'''
+# 17 -Modularizando nuestro conversor de monedas
+def suma (a, b):
+    print('Se suma dos números')
+    resultado = a + b
+    return resultado
+
+sumatoria = suma(1, 4)
+print(sumatoria)
+'''
