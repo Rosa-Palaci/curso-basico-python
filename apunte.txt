@@ -443,8 +443,51 @@ print(sumatoria)
 Crear las funciones por ensima del codigo para tener las definidas
 
 
+C L A S E 18: Trabajando con texto: cadenas de caracteres
 
-C L A S E 18: 
+En python podemos hacer más que solo concatenar texto 
+cadenas de caracteres
+ejemplo: desarrollo de una app con un formulario de ingreso 
+el nombre los escribe wen mininusculas y eso estaria mala
+solucion de este Problema 
+ 
+ Los métodos
+
+ >>> nombre.upper() - es un metodo, funcion que especial para un tipo de dato en especial, colocar el texto en Mayusculas
+'ROSA'
+>>> nombre.capitalize() - nos arroga solo la primera letra de la variable que ligamos en Mayuscula
+'Rosa'
+
+Las funciones devuelven valores con la palabra return, pues ...
+...estos metodos devuelven los valores pero no los guardan
+para hacer eso de guardarlos es :
+>>> nombre = nombre.capitalize() 
+>>> nombre
+'Rosa'
+
+en el caso de tener espacios usando el metodo strip:
+>>> nombre = nombre.strip() - lo que hace es eliminar los espcaios basura que pueden estar al principio o al final la cadena de caracteres
+>>> nombre
+'Rosa'
+>>> nombre = nombre.lower()  - este metodo hace que convierta nuestra cadena de caracteres en minusculas
+>>> nombre
+'rosa'
+>>> nombre = nombre.replace('a', 'e')  - este metodo intercambia valores por otros para eso ponemos entre parentesis el primer caracter que queremos cambiar luego coma despues el segundo caracter sera el que replazara al primero
+>>> nombre
+'rose'
+con los indices podemos acceder a la cadena de caracteres
+>>> nombre[0] - en programcion contamos desde 0            
+'r'
+para saber cuantos caracteres tiene la cadena 
+>>> len(nombre)
+4
+>>> len(letra)
+1
+>>> len("Hola! Estoy en el video 18 del curso de python")
+46
+
+funciones buil it son funciones que podemos invocar porque ya estan por defecto en python 
+
 C L A S E 19: 
 C L A S E 20: 
 C L A S E 21: 
