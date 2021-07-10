@@ -93,7 +93,25 @@ for i in range(10):
     print(11*i)
 
 
-✨C L A S E 24:
+✨C L A S E 24: Recorriendo un string con for
+Utilizamos for 
+caso : recorrer una cadena de caracteres
+recorrer : es tomar una estructura por cada parte unica dentro de un ciclo
+caracter uno --- dos --- tres--- etc 
+
+Cntrl + c parar la consola de python
+
+def run():
+    nombre = input('Escribe tu nombre: ')
+    for letra in nombre:
+        print(letra)
+
+
+if __name__ == '__main__':
+    run()
+
+# letra arroja cada caracter de nombre por partes
+
 ✨C L A S E 25:
 ✨C L A S E 26:
 ✨C L A S E 27:
