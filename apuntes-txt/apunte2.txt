@@ -44,8 +44,55 @@ if __name__ == '__main__':
 !!!
 
 
+✨C L A S E 23: Explorando un bucle diferente: el ciclo for
+ciclo for -- 
 
-✨C L A S E 23:
+#Imprimir de los numeros del 1 al 1000
+'''
+print(1)
+print(2)
+print(3)
+print(4)
+'''
+
+contador = 1
+print(contador)
+while contador < 1000:
+    contador = contador + 1
+    print(contador)
+
+    tip:
+    contador = contador + 1 # aumentar una variable un determinado de veces esto es igual a :
+    contador += 1
+
+#resolver con ciclo for
+
+for contandor in range(1000):
+    print(contandor)
+
+a = range(0, 1000)
+print(a)
+va de 0 a 1000
+convertir de un rango a una lista
+se imprimen del 0 al 999
+
+for contandor in range(1000):
+    print(contandor)
+para el contador del 0 a 1000  hasta llegar al 999 pero hay que colocar 1001 para llegar a 1000
+for contandor in range(1001):
+    print(contandor)
+
+    funcion range
+for contandor in range(1, 1001):
+    print(contandor)
+
+    con el ciclo while usamos mas lineas que con el ciclo for 
+
+#tabla del 11
+for i in range(10):
+    print(11*i)
+
+
 ✨C L A S E 24:
 ✨C L A S E 25:
 ✨C L A S E 26:
