@@ -488,6 +488,49 @@ para saber cuantos caracteres tiene la cadena
 
 funciones buil it son funciones que podemos invocar porque ya estan por defecto en python 
 
-C L A S E 19: 
+
+
+C L A S E 19: Trabajando con texto: slices
+
+Texto Platzi ejemplo pan 
+partir a la mitad
+
+1 rebanada: Pla
+2 rebanada: tzi
+
+consola:
+>>> nombre = "Palaci"
+>>> nombre
+'Palaci'
+>>> nombre[0]
+'P' 
+>>> nombre[1] 
+'a'
+
+subcadena de la cadena original
+esto es un slice o rebanada
+>>> nombre[0:3]
+'Pal'
+>>> nombre[:3]  
+'Pal'
+>>> nombre[3:] 
+'aci'
+>>> nombre[1:4]
+'ala'
+el 3 : es la cantidad de pasos que quiero hacer para llegar ahi
+>>> nombre[1:4:2]
+'aa'
+voy a ir del indice inicial al indice final
+>>> nombre[::]    
+'Palaci'
+>>> nombre[1::3]
+'ac'
+caso curioso:
+ir del principio al final pero en pasos negativos inversos
+Palacios pero al reves
+>>> nombre[::-1] 
+'icalaP'
+
+
 C L A S E 20: 
 C L A S E 21: 
