@@ -11,7 +11,7 @@ contador = 1
 print('2 elevado a ' + str(contador) + ' es igual a: ' + str(2**contador))
 '''
 def run():
-    LIMITE = 1000 
+    LIMITE = 1000000 
 
     contador = 0
     potencia_2 = 2**contador
