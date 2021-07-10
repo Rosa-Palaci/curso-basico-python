@@ -1,0 +1,23 @@
+ APRENDIENDO A EJECUTAR ALGO VARIAS VECES CON BUCLES 
+C L A S E 21: APRENDIENDO BUCLES
+Los bucles caso hipotetico de paso 1 -- paso a y paso b n veces -- paso 2
+entrenamiento plan algoritmo de los primeros en el curso
+planear
+comemos 
+entrenamos 
+descansamos 
+y este repetir n veces
+
+# veces 1000
+for num_potencia in range(1, 1001):
+    po = num_potencia**2
+    print(num_potencia)
+
+#Imprimir todas la potencial de 2 hasta llegar al numero 1000
+
+for num_potencia in range(1, 1001):
+    po = num_potencia**2
+    print(po)
+
+
+# print(num_potencia)
