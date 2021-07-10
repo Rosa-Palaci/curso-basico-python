@@ -138,6 +138,17 @@ def run():
 if __name__ == '__main__':
     run()
 
+#Reto 
+Bienvenido al Cafe del Dicho 🤷‍♀️😉
+1 - Agua que no has de beber, ... déjala correr
+        Lección que aconseja no involucrarse con aquello que no se puede afrontar.        
+
+2 - Botellita de jerez, ... todo lo que me digas será al revés
+        Dicho usual entre los niños para responder a los insultos, aunque en ocasiones suele ser empleado por la gente adulta.
+
+3 - El flojo y el mezquino, ... recorren dos veces el mismo camino
+        Aplica para situaciones en las que un perezoso, por no querer trabajar más, repercuten en más trabajo.
+
 
 ✨C L A S E 26:
 ✨C L A S E 27:
