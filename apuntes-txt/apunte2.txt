@@ -112,7 +112,33 @@ if __name__ == '__main__':
 
 # letra arroja cada caracter de nombre por partes
 
-✨C L A S E 25:
+✨C L A S E 25:Interrumpiendo ciclos con break y continue
+Como funcionan los ciclos 
+
+dentro de python modificar el funcionamiento de un ciclo solo arrojar ciertas vueltas del ciclo
+def run():
+    '''
+    for contador in range(1000):
+        if contador % 2 != 0:#impirmir solo numeros pares-->
+            continue
+        print(contador)
+    
+    for i in range(10000):
+        print(i)
+        if i == 5678:
+            break'''
+    
+    text = input('Escribe un texto: ')
+    for letra in text:
+        if letra == 'o':
+            break
+        print(letra)
+
+
+if __name__ == '__main__':
+    run()
+
+
 ✨C L A S E 26:
 ✨C L A S E 27:
 ✨C L A S E 28:
