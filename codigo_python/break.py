@@ -38,7 +38,7 @@ def run():
     3 = 'recorren dos veces el mismo camino'
     """
     while respuesta_dada != (RESPUESTA + '{dicho_elegido}'): 
-        print('Auch!' + str(respuesta_dada) + ' no es la otra mitad, elige denuevo ')
+        print('Auch!' + str(respuesta_dada) + ' no es la otra mitad.')
         break
         
 
