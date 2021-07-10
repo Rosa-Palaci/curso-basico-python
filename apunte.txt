@@ -532,5 +532,94 @@ Palacios pero al reves
 'icalaP'
 
 
-C L A S E 20: 
+C L A S E 20: Proyecto: palíndromo
+Si una palabra es un palindromo o no 
+un palindromo es una palabra que se lee igual al derecho y al reves puede ser palabra o frase
+
+ejemplo:
+ Luz azul
+ Ana
+ Yo hago yoga hoy
+
+ Escribe una palabra: Luz azul
+ Es palíndromo
+
+ Escribe una palabra: Ana
+ Es palíndromo
+
+  Escribe una palabra: Diego
+ No es palíndromo
+
+ Primero: Crear una funcion principal run o main
+        def main():
+            pass
+    El enterpoint el punto de entrada
+    if __name__ == '__main__':
+        pass
+        una vez que python lee lo anterio empieza a correr todo lo que esta debajo 
+        colocar esto es una buena practica
+        lo que va ha pasar el lo sig. 
+        if __name__ == '__main__':
+            main()
+            correr el archivo -- python se va a encontrar con if __name__ == '__main__':-- y va ha leer la invocación de la función principal pongase run() o main()
+            y apartir de ahi se corre 
+
+
+
+
+#Proyecto: palíndromo
+def palindromo(palabra):
+    #quitarle los espacios porque si se lee para la computadora no es lo mismo todos los caracteres los toma en cuenta
+    #necesitamos eliminar los espacios basura
+    palabra = palabra.replace(' ', '')# los espacios se cambian por nada
+    palabra = palabra.lower()#minisculas por que L es diferente al carecter l para la computadora
+    palabra_invertida = palabra[::-1] #generar un nuevo str que vaya del final al inicio de 1 en 1 y se guarda
+    #preguntar si son iguales
+    if palabra == palabra_invertida:
+        return True
+    else:
+        return False
+
+
+
+def main():
+    palabra = input('Escribe una palabra: ')
+    # Booleanos dependiendo T y F si es o no un palindromo
+    es_palindromo = palindromo(palabra) # para la funcion de palindromo debe ubicarse arriba o antes de esta
+    #Si es palaindromo es igual a T 
+    if es_palindromo == True:
+        print('Es palindromo')
+    else:
+        print('No es palindromo')
+# dejar dos espacios es una buena practica y es obligatorio si nosotros seguimos los estilos
+
+if __name__ == '__main__':
+    main()
+
+
+%%%
+#Proyecto: palíndromo
+def palindromo(palabra):
+    palabra = palabra.replace(' ', '')
+    palabra = palabra.lower()
+    palabra_invertida = palabra[::-1]
+    if palabra == palabra_invertida:
+        return True
+    else:
+        return False
+
+
+def main():
+    palabra = input('Escribe una palabra: ')
+    es_palindromo = palindromo(palabra)
+    if es_palindromo == True:
+        print('Es palindromo')
+    else:
+        print('No es palindromo')
+
+if __name__ == '__main__':
+    main()
+%%%
+
+
 C L A S E 21: 
