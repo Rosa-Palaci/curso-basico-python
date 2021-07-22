@@ -13,6 +13,8 @@ def run():
         if letra == 'o':
             break
         print(letra)
-        
+
 if __name__ == '__main__':
     run()
+
+#Realizar un reto con ciclos while y while con for
